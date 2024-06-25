@@ -10,6 +10,6 @@ jobs:
     hello_world:
         runs-on: ubuntu-24.04
         steps:
-            - name: Dice hola
-            run: |
+        - name: Dice hola
+          run: |
             echo "Hola mundo"
